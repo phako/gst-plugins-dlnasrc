@@ -1,0 +1,6 @@
+[submodule "dlnasrc"]
+	path = dlnasrc
+	url = git@bitbucket.org:ruihri/dlnasrc.git
+[submodule "dtcpip"]
+	path = dtcpip
+	url = git@bitbucket.org:ruihri/dtcpip.git
