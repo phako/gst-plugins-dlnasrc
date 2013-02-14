@@ -4,3 +4,6 @@
 [submodule "dtcpip"]
 	path = dtcpip
 	url = git@bitbucket.org:ruihri/dtcpip.git
+[submodule "cldemux"]
+	path = cldemux
+	url = git@bitbucket.org:ruihri/cldemux.git
