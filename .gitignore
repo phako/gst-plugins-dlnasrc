@@ -20,3 +20,6 @@ Makefile.in
 missing
 stamp-h1
 *.m4
+.project
+.cproject
+Debug
