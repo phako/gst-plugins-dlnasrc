@@ -7,3 +7,6 @@
 [submodule "cldemux"]
 	path = cldemux
 	url = git@bitbucket.org:ruihri/cldemux.git
+[submodule "demuxbin"]
+	path = demuxbin
+	url = git@bitbucket.org:ruihri/demuxbin.git
