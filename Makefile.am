@@ -1,3 +1,3 @@
 ACLOCAL_AMFLAGS = -I m4
-SUBDIRS = dtcpip dlnasrc passthru
+SUBDIRS = dtcpip dlnasrc passthru demuxbin
 
