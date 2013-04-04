@@ -24,6 +24,10 @@
 #include <string.h>
 #include "gstdemuxbin.h"
 
+#define GST_LICENSE "LGPL"
+#define GST_PACKAGE_NAME "GStreamer CableLabs Plug-ins"
+#define GST_PACKAGE_ORIGIN "CableLabs"
+
 /**
  * SECTION:element-demuxbin
  *
