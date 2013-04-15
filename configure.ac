@@ -6,6 +6,6 @@ LT_PREREQ([2.2])
 LT_INIT([dlopen])
 
 AC_CONFIG_MACRO_DIR([m4])
-AC_CONFIG_SUBDIRS([dtcpip dlnasrc passthru demuxbin cldemux])
+AC_CONFIG_SUBDIRS([dtcpip dlnasrc passthru demuxbin])
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
