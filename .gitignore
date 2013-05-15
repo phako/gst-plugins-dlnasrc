@@ -12,6 +12,7 @@ config.*
 configure
 configure.in
 depcomp
+INSTALL
 install-sh
 libtool
 ltmain.sh
