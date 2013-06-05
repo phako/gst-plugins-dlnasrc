@@ -378,12 +378,12 @@ gst_pass_thru_chain(GstPad * pad, GstObject * parent, GstBuffer * buf)
     if (GST_BUFFER_TIMESTAMP_IS_VALID(buf))
     {
         GstClockTime buftime = GST_BUFFER_TIMESTAMP(buf);
-        GST_ERROR_OBJECT(filter, "Buffer Timestamp = %lld ns", buftime);
+        GST_ERROR_OBJECT(filter, "Buffer Timestamp = %" GST_TIME_FORMAT, GST_TIME_ARGS(buftime));
     }
     if (GST_BUFFER_DURATION_IS_VALID(buf))
     {
         GstClockTime buftime = GST_BUFFER_DURATION(buf);
-        GST_LOG_OBJECT(filter, "Buffer duration = %lld ns", buftime);
+        GST_LOG_OBJECT(filter, "Buffer duration = %" GST_TIME_FORMAT, GST_TIME_ARGS(buftime));
 
     }
     gst_buffer_hexdump(GST_OBJECT(filter), buf);
