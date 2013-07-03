@@ -7,9 +7,6 @@
 [submodule "demuxbin"]
 	path = demuxbin
 	url = git@bitbucket.org:ruihri/demuxbin.git
-[submodule "passthru"]
-	path = passthru
-	url = ssh://git@bitbucket.org/ruihri/passthru.git
 [submodule "test"]
 	path = test
 	url = git@bitbucket.org:ruihri/gst-test.git
