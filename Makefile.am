@@ -1,3 +1,3 @@
 ACLOCAL_AMFLAGS = -I m4
-SUBDIRS = dtcpip dlnasrc demuxbin
+SUBDIRS = dtcpip dlnasrc demuxbin test
 
